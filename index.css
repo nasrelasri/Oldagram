@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 375px;
+    width: 430px;
     margin: 0px auto;
 }
 
@@ -9,6 +9,11 @@ html, body {
     display: flex;
     justify-content: space-between;
     border: 1px solid #C6C6C6;
+    padding: 10px 15px;
+}
+
+main {
+    padding: 20px 0px;
 }
 
 .article-header {
@@ -25,13 +30,23 @@ html, body {
     width: 100%;
 }
 
-.logo-section img {
-    height: 80px;
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
     width: auto;
 }
 
+.user-avatar {
+    border-radius: 50px;
+    height: 40px;
+}
+
 .article-header img {
-    height: 80px;
+    height: 60px;
     width: auto;
 }
 
