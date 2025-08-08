@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    margin: 0px auto;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C6C6C6;
+}
+
+.article-header {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-img {
+    display: block;
+    width: 100%;
+}
+
+.logo-section img {
+    height: 80px;
+    width: auto;
+}
+
+.article-header img {
+    height: 80px;
+    width: auto;
+}
+
