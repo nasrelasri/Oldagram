@@ -1,23 +1,32 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 430px;
+    width: 410px;
     margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
 }
 
 .logo-section {
     display: flex;
     justify-content: space-between;
     border: 1px solid #C6C6C6;
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 main {
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .article-header {
     display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.article-header p {
+    margin-bottom: 0px;
 }
 
 .header-container {
@@ -41,12 +50,33 @@ main {
 }
 
 .user-avatar {
-    border-radius: 50px;
     height: 40px;
+    border-radius: 50px;
 }
 
-.article-header img {
-    height: 60px;
-    width: auto;
+.vangogh-avatar {
+    height: 40px;
+    border-radius: 50px;
 }
 
+h1, p {
+margin: 0px 10px;
+}
+
+p {
+    margin: 0px 10px 10px 10px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button img {
+    width: 30px;
+    margin: 20px 0px 15px 0px;
+}
+
+p span {
+    font-weight: bold;
+}
